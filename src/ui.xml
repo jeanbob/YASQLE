@@ -1,0 +1,29 @@
+<ui>
+  <menubar>
+    <menu action="FichierMenuAction">
+      <menuitem action="NouveauAction" />
+      <menuitem action="OuvrirAction" />
+      <separator />
+      <menuitem action="QuitterAction" />
+    </menu>
+    <menu action="TableMenuAction">
+      <menuitem action="NouvelleTableAction" />
+      <menuitem action="SupprimerTableAction" />
+      <menuitem action="ModifierTableAction" />
+    </menu>
+    <menu action="AideMenuAction">
+      <menuitem action="AideAction" />
+      <menuitem action="AproposAction" />
+    </menu>
+  </menubar>
+  <toolbar>
+    <toolitem action="NouveauAction" />
+    <toolitem action="OuvrirAction" />
+    <separator />
+    <toolitem action="NouvelleTableAction" />
+    <toolitem action="ModifierTableAction" />
+    <toolitem action="SupprimerTableAction" />
+    <separator />
+    <toolitem action="AproposAction" />
+  </toolbar>
+</ui>
